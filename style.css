@@ -1,0 +1,153 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+/* Corpo da página */
+body {
+    background-color: #f4e3c1; /* Cor de fundo inspirada em pergaminho */
+    color: #2c3e50; /* Cor de texto mais escura para legibilidade */
+    line-height: 1.6;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #b5651d; /* Cor de madeira rústica */
+    color: #fff; /* Texto branco */
+    text-align: center;
+    padding: 20px;
+    font-size: 2.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px #000; /* Efeito de sombra no texto */
+}
+
+/* Seção de chamada */
+.chamada {
+    background: url('https://i.imgur.com/uJsdE5h.jpg') no-repeat center center/cover; /* Imagem de fundo temática */
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+    background-blend-mode: multiply; /* Para realçar o texto sobre a imagem */
+}
+
+.chamada h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px #000; /* Sombra para destacar o texto */
+}
+
+.chamada p {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+/* Estilo dos vídeos */
+iframe {
+    margin-top: 20px;
+    border: 5px solid #b5651d;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Seção de categorias */
+.categoria {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #e5c07b;
+    border-top: 3px solid #b5651d;
+    border-bottom: 3px solid #b5651d;
+}
+
+.categoria h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    color: #b5651d;
+}
+
+.categoria-videos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.categoria-videos a {
+    text-decoration: none;
+    color: #333;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.categoria-videos a:hover {
+    transform: scale(1.05);
+}
+
+.categoria-videos img {
+    width: 250px;
+    height: 140px;
+    object-fit: cover;
+    border: 3px solid #b5651d;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.categoria-videos span {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #b5651d;
+}
+
+/* Estilo das seções de conteúdo */
+.content {
+    background-color: #fff;
+    padding: 40px 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border: 2px solid #b5651d;
+}
+
+.content h2 {
+    font-size: 2em;
+    color: #b5651d;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.content img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 3px solid #b5651d;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.content p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Rodapé */
+footer {
+    background-color: #b5651d;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-top: 3px solid #e5c07b;
+}
+
+footer p {
+    margin: 0;
+}
